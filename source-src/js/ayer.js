@@ -74,14 +74,6 @@
     margins: 5
   });
 
-  // ScrollDown
-  $(document).ready(function ($) {
-    $('.anchor').click(function (e) {
-      e.preventDefault();
-      $('main').animate({ scrollTop: $('.cover').height() }, 'smooth');
-    });
-  });
-
   // To Top
   (() => {
     // When to show the scroll link
@@ -120,36 +112,6 @@
     $content.toggleClass('on');
     $sidebar.toggleClass('on');
   });
-
-  // Reward
-  $('#reward-btn').click(() => {
-    $('#reward').fadeIn(150)
-    $('#mask').fadeIn(150)
-  });
-  $('#reward .close, #mask').click(() => {
-    $('#mask').fadeOut(100)
-    $('#reward').fadeOut(100)
-  })
-
-  // DarkMode
-  if (sessionStorage.getItem('darkmode') == 1) {
-    $('body').addClass('darkmode')
-    $('#todark i').removeClass('ri-moon-line').addClass('ri-sun-line')
-  } else {
-    $('body').removeClass('darkmode')
-    $('#todark i').removeClass('ri-sun-line').addClass('ri-moon-line')
-  }
-  $('#todark').click(() => {
-    if (sessionStorage.getItem('darkmode') == 1) {
-      $('body').removeClass('darkmode')
-      $('#todark i').removeClass('ri-sun-line').addClass('ri-moon-line')
-      sessionStorage.removeItem('darkmode')
-    } else {
-      $('body').addClass('darkmode')
-      $('#todark i').removeClass('ri-moon-line').addClass('ri-sun-line')
-      sessionStorage.setItem('darkmode', 1)
-    }
-  })
 
   // showThemeInConsole
   const ayerInfo = '主题不错？⭐star 支持一下 ->';

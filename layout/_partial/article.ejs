@@ -35,12 +35,6 @@
       <% } else { %>
       <%- post.content %>
       <% } %>
-      <!-- reward -->
-      <% if ((theme.reward_type === 2 || (theme.reward_type === 1 && post.reward)) && !index && !post.no_reward){ %>
-      <div id="reward-btn">
-        <%= __('post.reward') %>
-      </div>
-      <% } %>
     </div>
     <% } %>
     
@@ -56,14 +50,6 @@
           </ul>
         </div>
         <% } %>
-    <footer class="article-footer">
-      <% if (!index && theme.share_enable){ %>
-          <%- partial('post/share') %>
-      <% } %>
-      <%- partial('post/tag') %>
-
-    </footer>
-
   </div>
 
   <% if (!index){ %>

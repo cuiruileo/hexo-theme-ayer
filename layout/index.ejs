@@ -1,4 +1,17 @@
-<%- partial('_partial/ayer') %>
-<div id="main">
-  <%- partial('_partial/archive', {pagination: 2, index: true}) %>
+<!-- %- partial('_partial/ayer') %> -->
+<!-- <div id="main"> -->
+
+<!-- </div> -->
+
+
+<section class="cover">
+<div class="cover-frame">
+  <div class="cover-inner text-center text-white">
+    <div>
+      <a href="<%- url_for(theme.banner.goto) %>">
+        <img src="<%- theme.banner.img %>" class="cover-logo" alt="<%= config.title %>">
+      </a>
+    </div>
+  </div>
 </div>
+</section>
