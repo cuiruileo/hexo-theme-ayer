@@ -17,6 +17,11 @@ sidebar:
 # ----------------------------------------------------------------------
 # Page Setting
 # ----------------------------------------------------------------------
+# 页面宽度自定义（不建议修改，可能造成布局混乱），article_width文章宽度，sidebar_width侧边栏宽度
+layout:
+  article_width: 100rem
+  sidebar_width: 8rem
+
 # Index
 banner:
   img: /images/banner.png
@@ -143,13 +148,6 @@ rss: /atom.xml
 # 是否启用黑夜模式开关
 darkmode: true
 
-# 页面点击小红心(开启请设置为true)
-clickLove: false
-
-# 页面宽度自定义（不建议修改，可能造成布局混乱），article_width文章宽度，sidebar_width侧边栏宽度
-layout:
-  article_width: 80rem
-  sidebar_width: 8rem
 
 # 评论：1、Valine(推荐)；2、Gitalk；3、MiniValine
 
@@ -233,10 +231,6 @@ katex:
 #   url: https://s9.cnzz.com/z_stat.php?id=1278069914&web_id=1278069914
 
 
-
-# # 访问量统计(不蒜子)
-# busuanzi:
-#   enable: true
 
 # # GitHub Ribbons-封面右上角的forkme，换样式直接在source/images目录下替换forkme图片
 # github:

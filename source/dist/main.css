@@ -576,8 +576,8 @@ button {
 }
 .cover-inner .cover-logo {
 	/* width:6rem */
-	width: 60%;
-	max-width: 40rem;
+	/* width: 60%; */
+	max-width: 50rem;
 	min-width: 10rem;
 }
 .float_btns {
@@ -1002,30 +1002,6 @@ to {
 	background:#dd4b39;
 	text-shadow:0 1px #be3221
 }
-.tocbot {
-	position:absolute;
-	right:-28rem;
-	top:14rem;
-	font-size:80%;
-	opacity:.95;
-	max-width:230px;
-	border-radius:8px
-}
-.tocbot>.toc-list {
-	position:relative;
-	overflow:hidden
-}
-.toc-list {
-	list-style:none;
-	margin-left:0;
-	padding-left:1rem
-}
-a.toc-link {
-	height:100%;
-	color:#172d3e;
-	text-decoration:none;
-	font-size:115%
-}
 .is-collapsible {
 	max-height:1000px;
 	overflow:hidden;
@@ -1355,9 +1331,9 @@ a.toc-link {
 	color:#999
 }
 .footer {
-	border-top:2px solid #f6f6f6;
+	/* border-top:2px solid #f6f6f6; */
 	padding:1rem 0;
-	font-size:115%
+	/* font-size:115% */
 }
 .footer .outer>ul {
 	position:relative;

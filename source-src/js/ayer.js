@@ -60,9 +60,6 @@
     }
   };
 
-  // Share
-  $('.share-outer').click(() => $('.share-wrap').fadeToggle())
-
   // Lazyload
   $("img.lazy").lazyload({
     effect: "fadeIn"
