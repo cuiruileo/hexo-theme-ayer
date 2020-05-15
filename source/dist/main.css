@@ -384,7 +384,7 @@ button {
 	bottom:0;
 	width:8rem;
 	height:100%;
-	background-color:rgba(0,0,0,.8)
+	/* background-color:rgba(0,0,0,.8) */
 }
 .sidebar.on {
 	left:0
@@ -396,11 +396,11 @@ button {
 	border:none;
 	height:4rem;
 	width:4rem;
-	border-radius:50%;
-	background-color:rgba(0,0,0,.5);
-	color:#fff;
-	transition:all .3s ease-in-out;
-	opacity:.5
+	/* border-radius:50%; */
+	/* background-color:rgba(0,0,0,.5); */
+	color:#000;
+	/* transition:all .3s ease-in-out; */
+	/* opacity:.5 */
 }
 .navbar-toggle:hover {
 	opacity:1
@@ -1961,13 +1961,14 @@ to {
 .navbar .nav .nav-item-link {
 	display:block;
 	padding:1rem;
-	color:#bbb;
+	color:#000;
 	text-decoration:none;
 	cursor:pointer
 }
 .navbar .nav .nav-item-link:hover {
-	opacity:.8;
-	background-color:#403e3e
+	border-bottom: 1px #000;
+	/* opacity:.8; */
+	/* background-color:#403e3e */
 }
 .navbar .nav.nav-main .nav-item-link i {
 	font-size:1rem;
